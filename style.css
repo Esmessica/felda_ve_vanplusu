@@ -57,7 +57,7 @@ nav ul{
 .logo{
     display: flex;
     justify-content: center;
-    margin: 5% 0 30% 0;
+    margin: 8% 0 25% 0;
 }
 
 .logo_felda{
@@ -68,17 +68,23 @@ nav ul{
     background-image: url(pictures/text_bcg\ -\ sm.png);
     background-repeat: no-repeat;
     display: flex;
-    padding: 10%;
+    padding: 10% 10%;
     background-size: 100vw;
+}
 
+.uvodni_text p{
+    text-align: center;
+    padding: 9% 0 10% 0;
+    color: white;
 }
 
 footer{
-    margin: 30% 0 0 0;
+    margin: 40% 0 0 0;
     padding:  0;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    padding-bottom: 5%;
 
 }
 
