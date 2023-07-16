@@ -54,22 +54,44 @@ nav ul{
     color: #f1b42d;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 30% 0;
+}
+
 .logo_felda{
-    max-width: 75%;
-    
+    max-width: 85%;
+}
+
+.uvodni_text{
+    background-image: url(pictures/text_bcg\ -\ sm.png);
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 10%;
+    background-size: 100vw;
+
 }
 
 footer{
+    margin: 30% 0 0 0;
+    padding:  0;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
+
 }
 
 .ig_logo{
-    max-width: 5vw;
-
+    
+    max-width: 30px;
+    height: auto;
+    margin-right: 2%;
 }
 
 footer a{
+    margin-top: 2px;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    
 }
