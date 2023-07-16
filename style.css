@@ -1,38 +1,62 @@
+/*font face import of poppins*/
+
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+  @font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Black.ttf);
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-ExtraBold.ttf);
+    font-weight: bolder; 
+}
+
 body{
     background-image: url(pictures/background_felda.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: "Poppins";
+    margin: 0;
+    padding: 0;
 }
 
 nav{
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.527);   
     padding: 5%;
-    float: right;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
 }
 
-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-nav ul li{
+.menu ul li{
     list-style: none;
     font-size: 1.6em;
     text-align: center;
     margin: 2% 0;
-    flex-wrap: nowrap;
-    
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;    
 }
 
-nav ul li:hover{
+.menu a:hover{
     color: #f1b42d;
 }
 
 .logo_felda{
-    max-width: 50%;
+    max-width: 75%;
+    
 }
 
 footer{
@@ -41,7 +65,7 @@ footer{
 }
 
 .ig_logo{
-    max-width: 25px;
+    max-width: 5vw;
 
 }
 
