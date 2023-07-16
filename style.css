@@ -6,5 +6,46 @@ body{
 }
 
 nav{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.527);   
+    padding: 5%;
+    float: right;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 1.6em;
+    text-align: center;
+    margin: 2% 0;
+    flex-wrap: nowrap;
     
+}
+
+nav ul li:hover{
+    color: #f1b42d;
+}
+
+.logo_felda{
+    max-width: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.ig_logo{
+    max-width: 25px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
